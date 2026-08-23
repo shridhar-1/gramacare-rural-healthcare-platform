@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "46199000000029768",
+      "name": "my-ai-app",
+      "domain": {
+        "id": "50044077284",
+        "name": "my-ai-app-60075406816.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60075406816",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

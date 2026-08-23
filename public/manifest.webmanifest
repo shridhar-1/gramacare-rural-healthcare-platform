@@ -1,0 +1,32 @@
+{
+  "name": "GramaCare — rural healthcare access",
+  "short_name": "GramaCare",
+  "description": "Find nearby healthcare, medicines, blood and emergency support, and understand medical reports in simple language.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f6f8f7",
+  "theme_color": "#14806e",
+  "lang": "en",
+  "categories": ["health", "medical", "utilities"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    { "name": "Emergency", "url": "/emergency" },
+    { "name": "Explain my report", "url": "/report" },
+    { "name": "Find healthcare", "url": "/find-care" }
+  ]
+}
