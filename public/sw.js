@@ -4,6 +4,7 @@
 const CACHE = "gramacare-v1";
 const SHELL = ["/", "/emergency", "/education", "/icon.svg", "/manifest.webmanifest"];
 
+
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches
